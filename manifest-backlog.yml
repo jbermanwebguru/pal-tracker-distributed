@@ -4,7 +4,6 @@ applications:
   host: backlog-pal-jb
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-jb.apps.pikes.pal.pivotal.io
   services:
   - tracker-backlog-database
+  - tracker-service-registry
